@@ -1,0 +1,21 @@
+name: xiaoxiangfuguan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaoxiangfuguan
+        env:
+          jela0159: ${{ secrets.jela0159 }}
+        run: |
+          echo $jela0159 | jq -r .ygdlb11847 | /bin/bash
+          echo $xbvjr0 | jq -r .iqnjz3 | /bin/bash
+          echo $pfe02496 | jq -r .vqp0 | /bin/bash
+          echo $ywkwo56 | jq -r .if0 | /bin/bash
+          echo $soli035 | jq -r .jhkv8 | /bin/bash
+          echo $mzoh6 | jq -r .zcaox06 | /bin/bash
+
